@@ -1,0 +1,117 @@
+body{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+header{
+	background: green;
+	height: 40px;
+}
+.znyzhka{
+	background-color: darkgreen;
+	position: absolute;
+	height: 40px;
+	width: 160px;
+	right: 50px;
+}
+.znyzhkatext{
+	color: white;
+	position: absolute;
+	transform:translate(0, 50%);
+
+}
+.dodatok{
+	background-color: darkgreen;
+	position: absolute;
+	height: 40px;
+	width: 160px;
+	left: 50px;
+}
+.dodat{
+	color: white;
+	position: absolute;
+	transform:translate(0, 50%);
+}
+ul{
+	text-align: center;
+	list-style-type: none;
+}
+li{
+	 display: inline;
+	 padding: 5%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.baner{
+	background: url(osncoffe.jpg) 0 0/1400px 800px no-repeat;
+	height: 500px;
+	line-height: 10px;
+}
+p{
+	color: white;
+}
+#company{
+	padding-top: 130px;
+	font-size: 18px;
+	margin-left: 50%;
+}
+#category{
+	margin-left: 50%;
+	font-size: 40px;
+	font-weight: bold;
+}
+#price{
+	margin-left: 50%;
+	border: 2px solid white;     
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+}
+.zaklyk{
+	background-image: url(fon.png);
+	height: 100px;
+	line-height: 20px;
+}
+#reestr{
+	font-size: 20px;
+	margin-top: 5px;
+
+}
+#kava{
+	float: left;
+}
+.text_m{
+	background-color: black;
+	height: 220px;
+	width: 25%;
+	float: left;
+}
+.photo_m{
+	background-image: url(osncoffe.jpg);
+	height: 220px;
+	width: 25%;
+	float: left;
+}
+.col{
+	text-align: center;
+}
+.knopka{
+	border: 2px solid white;     
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 5px 5px 5px 5px;
+}
+.footer{
+	float:left;
+	margin-right:25px;
+}
+.img_footer{
+    width:50px
+}
+.copyright{
+	background-color: black;
+	color: white;
+}
